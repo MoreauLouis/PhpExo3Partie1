@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -6,14 +5,26 @@
     <title>Exo3</title>
   </head>
   <body>
-  <p>
-     <?php $km = 1;
+<!-- Premier paragraphe -->
+    <p>
+      <?php
+//Déclaration d'une variable et initialisation par 1
+      $km = 1;
       echo $km;
-      $km = 3 ;
+      ?>
+    </p>
+<!-- Second paragraphe -->
+    <p>
+      <?php
+      $km = 3;
       echo $km;
+      ?>
+    </p>
+    <p>
+      <?php
       $km = 125;
-      echo $km; ?>
-  </p>
-
+      echo $km;
+      ?>
+    </p>
   </body>
 </html>
